@@ -54,10 +54,6 @@ const LandingPage = () => {
             <div className="text-6xl md:text-7xl lg:text-8xl">
           </div>
           </h1>
-          
-          {/* Subparagraph */}
-          <p className="font-manrope text-sm text-white/90 max-w-[600px] leading-relaxed mt-6 drop-shadow-lg bg-black/20 backdrop-blur-sm p-4 rounded-lg">
-        </p>
         </div>
       </div>
 
