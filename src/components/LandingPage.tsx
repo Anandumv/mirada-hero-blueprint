@@ -1,11 +1,22 @@
+
 import React from 'react';
 const LandingPage = () => {
   return <div className="min-h-screen w-full relative overflow-hidden">
       {/* Background Video */}
-      <div className="absolute inset-0 z-0">
-        <iframe src="https://player.cloudinary.com/embed/?cloud_name=dagtwj49h&public_id=social_u2451393239_A_hyper-realistic_close-up_of_a_greenish-blue_eye_ef774173-1866-4f06-b297-f498bf5ebd0e_2_bzubga&profile=rrtgdsfg&autoplay=true&muted=true&loop=true&controls=false" width="100%" height="100%" style={{
-        border: 'none'
-      }} allow="autoplay; fullscreen; encrypted-media" className="w-full h-full object-cover" />
+      <div className="fixed inset-0 z-0 w-full h-full">
+        <iframe 
+          src="https://player.cloudinary.com/embed/?cloud_name=dagtwj49h&public_id=social_u2451393239_A_hyper-realistic_close-up_of_a_greenish-blue_eye_ef774173-1866-4f06-b297-f498bf5ebd0e_2_bzubga&profile=rrtgdsfg&autoplay=true&muted=true&loop=true&controls=false" 
+          width="100%" 
+          height="100%" 
+          style={{
+            border: 'none',
+            width: '100vw',
+            height: '100vh',
+            objectFit: 'cover'
+          }} 
+          allow="autoplay; fullscreen; encrypted-media" 
+          className="absolute inset-0 w-full h-full object-cover scale-110" 
+        />
       </div>
       
       {/* Dark Overlay for Better Text Readability */}
